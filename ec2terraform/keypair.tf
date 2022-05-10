@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "namrata-useast-kp"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHuGq5JLdFw7jatEoUqOvHZq2NvM3CeOhT91Sv5DboxldrCMd6lAVK44mqYm4ZTV1c51jROiXFcY3DB8qbewZeD5XSADfS4pBI8b5yVWy34upqbJGfRaey+tdo7P2q5kbwoOdaVY+d35jZHkSb4+pN1XPtMGyiZl6GpHWysgCKTiN+UWM+XRS7x3s9LyvzzyZzThkca8eoUPzc3R6EDDZevDe2piDze6MEQUmDI8eybXI20Y/jP+N5qzQqnbl1aDgOirS7JU/hA5z8L5V1r2Ay3pBq4EyOuBOyMJWVKua3SZxwD4gY9nlrAUOPzet2bA1AqdQVPp4LbDapisINJ6qHFLimQeMAtWflI3FVIquP+FI0y1/y+Tnz0ICbb7TkYMP7/j6nosv6pdlz3QSXAQOKg1VEbUBLYVABzBep5ndoVuA63k6LllbGHsW+f3mkTNUeWOV6dy3OArCIt4XYDms3ns3Vf4luqfEd6yFichUJl5lLSenC0EOdNZGuaYKHve0= root@ip-172-31-23-192"
+}
